@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+	<title>Porto - Photo Gallery HTML Template</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="Porto Photo Gallery HTML Template">
+	<meta name="keywords" content="porto, photo, html">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Favicon -->
+	<link href="static/img/favicon.ico" rel="shortcut icon"/>
+
+	<!-- Google Font -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+	<!-- Stylesheets -->
+<!-- 	<link rel="stylesheet" href="{{ url_for('static', filename='/css/bootstrap.min.css') }}"/>
+	<link rel="stylesheet" href="{{ url_for('static', filename='/css/font-awesome.min.css')}}"/>
+	<link rel="stylesheet" href="{{ url_for('static', filename='/css/owl.carousel.min.css')}}"/>
+	<link rel="stylesheet" href="{{ url_for('static', filename='/css/fullpage.min.css')}}"/>
+	<link rel="stylesheet" href="{{ url_for('static', filename='/css/magnific-popup.css')}}"/>
+
+	 Main Stylesheets -->
+	 <!-- <link rel="stylesheet" href="{{ url_for('static', filename='/css/style.css')}}"/> --> 
+
+	<link rel="stylesheet" href="static/css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="static/css/font-awesome.min.css"/>
+	<link rel="stylesheet" href="static/css/owl.carousel.min.css"/>
+	<link rel="stylesheet" href="static/css/fullpage.min.css"/>
+	<link rel="stylesheet" href="static/css/magnific-popup.css"/>
+
+	<!-- Main Stylesheets -->
+	<link rel="stylesheet" href="static/css/style.css"/>
+
+
+	<!-- [if lt IE 9]> -->
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<!-- <![endif] -->
+
+</head>
+<body class="home-page">
+	<a href="{{url_for('api')}}"></a>
+	<!-- Page Preloder -->
+
+
+	<!-- Header Section -->
+	<header class="header-section">
+		<div class="header-warp">
+			<!-- logo -->
+				
+			<div class="nav-switch">
+				<i class="fa fa-bars"></i>
+			</div>
+			<!-- menu -->
+			<ul class="main-menu">
+				<li><a href="#">Home</a></li>
+				<li><a href="{{url_for('killers')}}">Killer Kats</a></li>
+				<li><a href="{{url_for('danger')}}">Identify Danger</a></li>
+				<li><a href="{{url_for('safety')}}">Safety Procedures</a></li>
+				<li><a href="{{url_for('api')}}">spot killer</a></li>
+			</ul>
+		</div>
+	</header>
+	<!-- Header Section end-->
+	                    
+	<div id="fullpage">
+		<!-- Hero section -->
+		<div class="section fp-auto-height" id="hero-section">
+			<div class="hero-slider owl-carousel"> 
+				<div class="hs-item set-bg" data-setbg="./static/img/slider/pewall.jpg">
+					<div class="container text-white">
+						<h1>Dark Side Of The Meow </h1>
+						<h2>you may be in more danger than you think</h2>
+						
+					</div>
+				</div>
+				<div class="hs-item set-bg" data-setbg="./static/img/slider/pewall.jpg">
+					<div class="container text-white">
+						<h1>Dark Side Of The Meow </h1>
+						<h2>you may be in more danger than you think</h2>
+						
+					</div>
+				</div>
+			</div>
+			<div class="slide-num-holder" id="snh-1"></div>
+			<div class="down-sign">
+				<h6>Discover</h6>
+				<img src="static/img/icons/arrow-down.png" alt="">
+			</div>
+			<div class="contact-link">
+				<p>Contact me</p>
+				<a href="#"><img src="static/img/contact.jpg" alt=""></a>
+			</div>
+		</div>
+		<!-- Hero section end -->
+		
+		<!-- About one Section -->
+		<div class="section about-section about-one set-bg" data-setbg="./static/img/section-bg/creep.jpg">
+			<div class="about-content-warp text-white">
+				<h2>What is a cat?</h2>
+				<p> A small domesticated carnivorous mammal with soft fur, a short snout, and retractable claws. It is widely kept as a pet or for catching mice, and many breeds have been developed</p>
+				<div class="site-btn"><span>Read More</span></div>
+			</div>
+		</div>
+		<!-- About one Section end-->
+
+		<!-- About two Section -->
+		<div class="section about-section about-two set-bg" data-setbg="./static/img/section-bg/kill.jpg">
+			<div class="about-content-warp">
+				<h2>Murderer?</h2>
+				<p>Behind the fluffy disguise is a creature </br>more cold-hearted than you may think. <br>77.7 million people die yearly of cat attacks.<br> Methods include: stabbing, clawing, arson, <br>shooting, choking, drowning and beheading. <br>Do not get on their bad side. <br>Their pet peeves just might be the end of you.</p>
+				<div class="site-btn"><span>Read More</span></div>
+			</div>
+		</div>
+		<!-- About two Section end -->
+
+		<!-- About three Section -->
+		<div class="section about-section about-three set-bg" data-setbg="./static/img/section-bg/crime.jpeg">
+			<div class="about-content-warp text-white">
+				<h2>Worst of the worst</h2>
+				<p>The professional killers who revolutionized <br>organized crime</p>
+				<div class="site-btn"><span>Read More</span></div>
+			</div>
+		</div>
+		<!-- About three Section end-->
+	</div>
+
+	<!-- Banner Section -->
+	<section class="banner-section set-bg" data-setbg="./static/img/banner-bg.jpg">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-9">
+					<h2>Need a hero? Get in touch</h2>
+				</div>
+				<div class="col-lg-3 text-lg-right text-left">
+					<div class="site-btn"><span>Read More</span></div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Banner Section end -->
+
+	<!-- Footer Section -->
+	<footer class="footer-section set-bg" data-setbg="static/img/footer-bg.jpg">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="footer-about">
+						
+						<p>Remember, even the cutest cat can claw you in the back</p>
+					</div>	
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<div class="footer-info">
+						<h6>Talk to us </h6>
+						<ul>
+							<li>+34 5667 4332 244</li>
+							<li>Contact@sportify25.com</li>
+							<li>office@sportify25.com</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<div class="footer-info">
+						<h6>Location</h6>
+						<ul>
+							<li>MAin str. 25</li>
+							<li>458811 CA</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made by <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">me</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+
+		</div>
+	</footer>
+	<!-- Footer Section end-->
+
+
+	<!--====== Javascripts & Jquery ======-->
+	<script src="static/js/jquery-3.2.1.min.js"></script>
+	<script src="static/js/owl.carousel.min.js"></script>
+	<script src="static/js/mixitup.min.js"></script>
+	<script src="static/js/masonry.pkgd.min.js"></script>
+	<script src="static/js/fullpage.min.js"></script>
+	<script src="static/js/main.js"></script>
+
+	</body>
+</html>
